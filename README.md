@@ -41,12 +41,8 @@ graph TD
     
     J --> K{User Action}
     K -- Payment Success --> L[Secured Digital Delivery]
-    K -- No Action --> M[Priority Courier Assignment]
-    
-    style E fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
+    K -- No Action --> M[Priority Courier Assignment] 
  
-
 📂 Project Structure
 Bash
 ├── dashboard/      # Power BI .pbix and screen recordings
